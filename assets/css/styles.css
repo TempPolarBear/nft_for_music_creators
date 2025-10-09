@@ -1,0 +1,49 @@
+body {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 300 !important;
+  font-style: light !important;
+  background:rgba(0, 0, 0, 1) !important; 
+  overflow-x: hidden !important;
+}
+
+.bg-gradient {
+  background: #CC75FB !important;
+  background: linear-gradient(159deg, rgba(204, 117, 251, 1) 0%, rgba(85, 37, 190, 1) 15%, rgba(0, 0, 0, 1) 30%) !important;
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-button {
+  background: #06DBAC;
+background: linear-gradient(147deg, rgba(6, 219, 172, 1) 13%, rgba(189, 0, 255, 1) 66%);
+}
+
+.btn-music:focus,
+.btn-music:hover {
+ background: #FFFFFF;
+ color: #09AF55
+}
+
+.btn-main:focus,
+.btn-main:hover {
+  background: linear-gradient(147deg, rgba(6, 219, 172, 1) 13%, rgba(189, 0, 255, 1) 66%) !important;
+  color: #FFFFFF !important;
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
