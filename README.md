@@ -1,13 +1,13 @@
 # Music NFT Platform
 
-Адаптивная одностраничная вёрстка маркетплейса музыкальных NFT.
+A responsive one-page layout for a music NFT marketplace.
 
 ## Features
 
-- Навигация по секциям страницы
-- Блоки о принципах Music NFT и взаимодействии с аудиторией
-- Витрина NFT-работ
-- Адаптивное меню Bootstrap и плавная прокрутка
+- Navigation between page sections
+- Sections explaining Music NFTs and audience engagement
+- NFT showcase
+- Responsive Bootstrap navigation menu and smooth scrolling
 
 ## Technologies
 
@@ -19,4 +19,4 @@
 
 ## Getting Started
 
-Откройте `index.html` в браузере. Сборка и переменные окружения не требуются.
+Open `index.html` in a browser. No build step or environment variables are required.
